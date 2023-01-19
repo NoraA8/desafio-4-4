@@ -27,7 +27,7 @@ const MiApi = () => {
         />
       </div>
       {characters
-        .filter((x) => x.name.includes(search))
+        .filter((x) => x.name.toLowerCase().includes(search))
         .map((item) => {
           return (
                 <div key={item.id} className="card my-3 text-center" style={{ width: "25rem" }}>

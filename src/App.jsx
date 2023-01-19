@@ -1,5 +1,5 @@
 import MiApi from "./components/MiApi.jsx";
-
+import logo from "./assets/img/logo.png"
 const App = () => {
   return (
     <>
@@ -10,6 +10,9 @@ const App = () => {
         <MiApi />
       </div>
       <footer className="text-center text-white color">
+        <div>
+          <img src={logo} alt="" className="size"/>
+        </div>
         <h5 className="pt-3">Cantidad de personajes: 826 - Cantidad de temporadas: 6 - Cantidad de episodios: 61</h5>
         <h5>Estado de emision <button className="icon" disabled></button></h5>
         <p className="m-0 pb-2">❮❯ ©Copyright 2023</p>
