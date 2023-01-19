@@ -31,7 +31,7 @@ const MiApi = () => {
         .map((item) => {
           return (
                 <div key={item.id} className="card my-3 text-center" style={{ width: "25rem" }}>
-                  <img src={item.image} className="card-img-top size" alt="" />
+                  <img src={item.image} className="card-img-top" alt="" />
                   <div className="card-body">
                     <h5 className="card-title">{item.name}</h5>
                   </div>
