@@ -1,0 +1,19 @@
+body {
+    background: rgb(39, 43, 51);;
+}
+.bg-img {
+    background-image: url(assets/img/Rick-and-Morty.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.color {
+    background: rgb(32, 35, 41);
+}
+.icon {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: rgb(85, 204, 68);
+}
